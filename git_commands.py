@@ -1,7 +1,6 @@
 """ 
 
-This sample file is created to demonstrate
-git push/pull requests 
+This sample file is created to demonstrate git push/pull requests.
 
 git init -- To initialize git in our working directory
 git add . -- before commiting changes this command needs to be run to move the changes to staging
