@@ -20,5 +20,3 @@ sum=0
 for i in int_list:
     sum= sum+i
 print("Total sum of the integers in the list is:",sum)
-
-

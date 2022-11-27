@@ -1,44 +1,44 @@
 # How to create a class in Python
 
-# class Employee:
+class Employee:
     
-#     #constructor of a class
+    #constructor of a class
 
-#     def __init__(self):
-#         #instance variable or instance attribute
-#         self.emp_name = None
-#         self.emp_salary = None
+    def __init__(self):
+        #instance variable or instance attribute
+        self.emp_name = None
+        self.emp_salary = None
 
-#     #method of a class
+    #method of a class
 
-#     def DisplayEmployeeInfo(self):
-#         print("Employee name : ",self.emp_name, ", Employee_salary : ", self.emp_salary)
-
-
-# emp1 = Employee()
-# emp2 = Employee()
+    def DisplayEmployeeInfo(self):
+        print("Employee name : ",self.emp_name, ", Employee_salary : ", self.emp_salary)
 
 
+emp1 = Employee()
+emp2 = Employee()
 
-# class Employee:
+
+
+class Employee:
     
-#     #constructor of a class
+    #constructor of a class
 
-#     def __init__(self,name,salary):
-#         #instance variable or instance attribute
-#         self.emp_name = name
-#         self.emp_salary = salary
+    def __init__(self,name,salary):
+        #instance variable or instance attribute
+        self.emp_name = name
+        self.emp_salary = salary
 
-#     #method of a class
+    #method of a class
 
-#     def DisplayEmployeeInfo(self):
-#         print("Employee name : ",self.emp_name, ", Employee_salary : ", self.emp_salary)
+    def DisplayEmployeeInfo(self):
+        print("Employee name : ",self.emp_name, ", Employee_salary : ", self.emp_salary)
 
 
-# emp1 = Employee("Madhuchandra", 10000)
-# emp2 = Employee("Gamidi", 20000)
+emp1 = Employee("Madhuchandra", 10000)
+emp2 = Employee("Gamidi", 20000)
 
-# emp2.DisplayEmployeeInfo()
+emp2.DisplayEmployeeInfo()
 
 
 # Difference between class variable and instance variable
@@ -91,5 +91,3 @@ class car :
     @staticmethod
     def initialMessage():
         print("Nice car")
-
-

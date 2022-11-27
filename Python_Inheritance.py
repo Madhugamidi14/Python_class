@@ -39,13 +39,13 @@ class Employee (Person) :
          ". Employee designation is ", self.emp_designation)
 
 
-# emp = Person("Madhu")
-# emp.displayName()
-# emp.isEmployed()
+emp = Person("Madhu")
+emp.displayName()
+emp.isEmployed()
 
-# emp1 = Employee("Madhu Gamidi")
-# emp1.displayName()  # inherited
-# emp1.isEmployed()
+emp1 = Employee("Madhu Gamidi")
+emp1.displayName()  # inherited
+emp1.isEmployed()
 
 
 emp3  = Employee("Madhu", 5432, 100000, "Data Engineer 1")
